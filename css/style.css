@@ -1,17 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -26,6 +13,7 @@ Author E-mail: naimlasker@gmail.com
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 body {
+  overflow-x: hidden;
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
