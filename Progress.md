@@ -24,6 +24,8 @@ Add Analytics
 Add Whatsapp direct link
 Add Mail Exception Hosting
 Contact me form script - add exception
+Remove all .html
+Add HTACCESS
 
 
 ## Progress - 
