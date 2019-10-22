@@ -1,5 +1,6 @@
 # Curriculum-Vitae-AkashR
 This is the Curriculum Vitae for Mr. Akash Roy.
+The demo deployment is available at [Github Pages](https://dipan29.github.io/Curriculum-Vitae-AkashR/)
 
 ## About Akash Roy
 Hello, an EC Engineer from Heritage Institute of Technology Kolkata here. I am in love with IoT and Robotics as I have spent hours working on on them, while Research and Teaching have also been my priorities. Currently serving as Front-End Developer at TCS, Kolkata. 
