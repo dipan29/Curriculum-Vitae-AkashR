@@ -20,6 +20,9 @@
 ## Others -
 Make Skillset responsive slider on mobile
 Link Certificates
+ADD CV LINK TO THE POS
+SOCIAL MEDIA LINKS
+
 
 Add Analytics
 Add Whatsapp direct link
