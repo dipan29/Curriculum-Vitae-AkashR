@@ -1,7 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Start Barand Area css
+============================================================================================ */
+.brand_area {
+    padding-bottom: 170px; }
+    @media (max-width: 1199px) {
+      .brand_area {
+        padding-bottom: 80px; } }
 
+.single-brand-item {
+    margin: 0 auto;
+    transform: scale(1.7);
+}
+.single-brand-item img {
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.d-table-2 {
+    display: table !important;
+}
+
+.d-table-row-2 {
+    display: table-row !important;
+}
+
+.d-table-cell-2 {
+    display: table-cell !important;
+}
+
+  /* End Barand Area css */
 .site-list {
   padding: 0;
   margin: 0; }
@@ -91,3 +123,11 @@
     font-size: 20px; }
   .resume-item h3, .resume-item .school {
     color: #2c3e50; }
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .brand-carousel .single-brand-item {
+        height: 100px;
+        width: 140px
+    }
+}
