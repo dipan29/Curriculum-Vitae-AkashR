@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Start Barand Area css
+============================================================================================ */
+.brand_area {
+    padding-bottom: 170px; }
+    @media (max-width: 1199px) {
+      .brand_area {
+        padding-bottom: 80px; } }
+
+.single-brand-item {
+    margin: 0 auto;
+    transform: scale(1.7);
+}
+.single-brand-item img {
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+
+.d-table-2 {
+    display: table !important;
+}
+
+.d-table-row-2 {
+    display: table-row !important;
+}
+
+.d-table-cell-2 {
+    display: table-cell !important;
+}
+
+  /* End Barand Area css */
+.site-list {
+  padding: 0;
+  margin: 0; }
+  .site-list li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    position: relative;
+    list-style: none; }
+    .site-list li:before {
+      font-family: 'icomoon';
+      position: absolute;
+      top: .1em;
+      left: 0; }
+    .site-list li.site-check {
+      padding-left: 30px; }
+      .site-list li.site-check:before {
+		color: #ed239f;
+        /* color: #57d131; */
+        font-size: 16px;
+        content: "\ebd3"; }
+
+	.site-list li.site-check-2 {
+      padding-left: 30px; }
+      .site-list li.site-check-2:before {
+		color: #57d131;
+        font-size: 16px;
+        content: "\ebd3"; }
+
+.progress {
+  overflow: visible;
+  margin-bottom: 26px;
+  height: 4px; }
+  .progress .progress-bar {
+    background-color: #ed239f;
+    position: relative;
+    border-radius: 4px; }
+    .progress .progress-bar span {
+      background-color: #ed239f;
+      position: absolute;
+      bottom: -20px;
+      font-size: 10px;
+      line-height: 10px;
+      padding: 2px 3px 2px 4px;
+      right: -1.4em;
+      border-radius: 2px; }
+    .progress .progress-bar span:after {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #ed239f;
+      border-width: 5px;
+      margin-left: -5px; }
+
+.skill h3 {
+  font-size: 18px; }
+
+.resume-header {
+	color: #1345e6;
+}
+
+.resume-item {
+  padding: 40px;
+  background: #fff;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  border: 4px solid transparent; }
+  .resume-item:hover, .resume-item:focus {
+    border: 4px solid #ed239f;
+    -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); }
+  .resume-item .date {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: .1em;
+    color: #b3bdc6;
+    text-transform: uppercase; }
+  .resume-item .school {
+    display: block;
+    font-size: 20px; }
+  .resume-item h3, .resume-item .school {
+    color: #2c3e50; }
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .brand-carousel .single-brand-item {
+        height: 100px;
+        width: 140px
+    }
+}
