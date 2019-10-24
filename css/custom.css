@@ -3,7 +3,7 @@
 
 .parallax-1 {
     /* The image used */
-    background-image: url("../img/banner/office.jpg");
+    background-image: url("../img/banner/office-2a.jpg");
    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -332,4 +332,6 @@
       .tab-content > .active {
         display: block; }
         
-        
+.p-l-50{
+    padding-left: 50px;
+}        
