@@ -12,21 +12,29 @@
  5.1. Research Work  
  5.2. Robotics / IoT  
  5.3. Developmental Projects  
-6. Testimonials
+6. Testimonials | 2 Done 4 More
 7. Contact me form | DONE
 
 
 
 ## Others -
-Make Skillset responsive slider on mobile
-Link Certificates
 
+Link Certificates
+IMAGE 1
+IMAGE 2
+ADD META INFOS
 Add Analytics
-Add Whatsapp direct link
 Add Mail Exception Hosting
 Remove all .html
-Add HTACCESS
+
 
 
 ## Progress - 
 Contact me form script - add exception
+Add HTACCESS
+ADD CV LINK TO THE POS
+Make Skillset responsive slider on mobile
+Add Image in mobile 
+Mobile/No-mobile CSS
+SOCIAL MEDIA LINKS
+Add Whatsapp direct link
