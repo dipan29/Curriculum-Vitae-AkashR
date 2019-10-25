@@ -12,7 +12,7 @@
  5.1. Research Work  
  5.2. Robotics / IoT  
  5.3. Developmental Projects  
-6. Testimonials
+6. Testimonials | 2 Done 4 More
 7. Contact me form | DONE
 
 
@@ -20,8 +20,8 @@
 ## Others -
 
 Link Certificates
-
-
+IMAGE 1
+IMAGE 2
 ADD META INFOS
 Add Analytics
 Add Mail Exception Hosting
