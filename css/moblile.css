@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mobile {
+    display: none;
+}
+
+.no-mobile {
+
+}
+
+.image-mob {
+    
+}
+
+@media (max-width: 640px) {
+    .mobile {
+        display: block;
+    }
+    .no-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 641px) {
+    .mobile {
+        display: none;
+    }
+    .no-mobile {
+        display: block;
+    }
+}

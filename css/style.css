@@ -3277,7 +3277,7 @@ h6 {
         transition: all 0.4s ease 0s; }
         @media (max-width: 576px) {
           .footer_area .footer_social a i {
-            font-size: 25px; } }
+            font-size: 20px; } }
         .footer_area .footer_social a i:hover {
           color: #854fee; }
   .footer_area .footer_bottom {
