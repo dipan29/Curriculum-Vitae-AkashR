@@ -21,7 +21,7 @@
 
 Link Certificates
 IMAGE 1 | Done
-IMAGE 2
+IMAGE 2 = Mobile Image
 
 
 Add Mail Exception Hosting
