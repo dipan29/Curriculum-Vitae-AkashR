@@ -22,7 +22,7 @@
 Link Certificates
 IMAGE 1
 IMAGE 2
-ADD META INFOS
+
 Add Analytics
 Add Mail Exception Hosting
 Remove all .html
@@ -38,3 +38,4 @@ Add Image in mobile
 Mobile/No-mobile CSS
 SOCIAL MEDIA LINKS
 Add Whatsapp direct link
+ADD META INFOS
