@@ -23,7 +23,7 @@ Link Certificates
 ADD CV LINK TO THE POS
 SOCIAL MEDIA LINKS
 
-
+ADD META INFOS
 Add Analytics
 Add Whatsapp direct link
 Add Mail Exception Hosting
