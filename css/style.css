@@ -335,6 +335,17 @@ button:focus {
   background: url(../img/banner/home-banner.png) no-repeat top center;
   background-position: center;
   background-size: cover; }
+  @media (min-width: 761px) {
+    .home_banner_area{
+      background: url(../img/banner/home-banner.png) no-repeat top center;      
+    }
+  } 
+  @media (max-width: 760px) {
+    .home_banner_area{
+      background: url(../img/banner/home-banner-mobile.png) no-repeat top center;
+      background-attachment: fixed;
+    }
+  }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
@@ -2440,7 +2451,9 @@ h6 {
           height: auto; } }
     @media (max-width: 991px) {
       .about_area .about_img {
-        display: none; } }
+        margin-top: -80px;
+        margin-bottom: 50px;
+        display: block; } }
 
 /* End About Us Area css
 ============================================================================================ */
