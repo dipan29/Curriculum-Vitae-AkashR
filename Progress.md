@@ -24,7 +24,6 @@ Link Certificates
 
 ADD META INFOS
 Add Analytics
-Add Whatsapp direct link
 Add Mail Exception Hosting
 Remove all .html
 
@@ -38,3 +37,4 @@ Make Skillset responsive slider on mobile
 Add Image in mobile 
 Mobile/No-mobile CSS
 SOCIAL MEDIA LINKS
+Add Whatsapp direct link
