@@ -18,12 +18,9 @@
 
 
 ## Others -
-Make Skillset responsive slider on mobile
-Add Image in mobile 
-Mobile/No-mobile CSS
+
 Link Certificates
-ADD CV LINK TO THE POS
-SOCIAL MEDIA LINKS
+
 
 ADD META INFOS
 Add Analytics
@@ -36,3 +33,8 @@ Remove all .html
 ## Progress - 
 Contact me form script - add exception
 Add HTACCESS
+ADD CV LINK TO THE POS
+Make Skillset responsive slider on mobile
+Add Image in mobile 
+Mobile/No-mobile CSS
+SOCIAL MEDIA LINKS
