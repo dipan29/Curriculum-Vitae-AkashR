@@ -20,10 +20,10 @@
 ## Others -
 
 Link Certificates
-IMAGE 1
+IMAGE 1 | Done
 IMAGE 2
 
-Add Analytics
+
 Add Mail Exception Hosting
 Remove all .html
 
@@ -32,6 +32,8 @@ Remove all .html
 ## Progress - 
 Contact me form script - add exception
 Add HTACCESS
+Add Analytics
+Google Site Verification
 ADD CV LINK TO THE POS
 Make Skillset responsive slider on mobile
 Add Image in mobile 
