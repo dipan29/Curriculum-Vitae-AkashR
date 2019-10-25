@@ -135,6 +135,7 @@
 	<section class="brand_area section_gap_bottom">
 		<div class="container">
 			<div class="row justify-content-center">
+				<!-- Slider for Desktop -->
 				<div class="col-lg-6 no-mobile">
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6">
@@ -201,6 +202,20 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<!-- Slider for Mobile -->
+				<div class="col-lg-6 mobile">
+					<section class="skill-logos slider">
+						<div class="slide"><img src="img/brands/logo1.png"></div>
+						<div class="slide"><img src="img/brands/logo2.png"></div>
+						<div class="slide"><img src="img/brands/logo3.png"></div>
+						<div class="slide"><img src="img/brands/logo4.png"></div>
+						<div class="slide"><img src="img/brands/logo5.png"></div>
+						<div class="slide"><img src="img/brands/logo6.png"></div>
+						<div class="slide"><img src="img/brands/logo7.png"></div>
+						<div class="slide"><img src="img/brands/logo8.png"></div>
+						<div class="slide"><img src="img/brands/logo9.png"></div>
+					</section>
 				</div>
 				<div class="offset-lg-2 col-lg-4 col-md-6">
 					<div class="client-info">
@@ -640,7 +655,8 @@
 							</div>
 							<div class="row">
 								<div class="col">
-									<p><strong>Abstract : </strong><br/>SunChargers is a Solar Charged Street Automation Product which packs features
+									<p><strong>Abstract : </strong><br />SunChargers is a Solar Charged Street
+										Automation Product which packs features
 										like Solar Tracking, Automatic Fault Detection and Alert, Light Intensity
 										Controlling and Solar Powered Car Charging Station along with SOS Features and
 										Traffic Mapping System.</p>
@@ -680,7 +696,7 @@
 			<div class="filters portfolio-filter">
 				<ul>
 					<li class="active" data-filter="*">all</li>
-					<li data-filter=".electronics">Electronics</li>					
+					<li data-filter=".electronics">Electronics</li>
 					<li data-filter=".robotics">Robotics/IoT</li>
 					<li data-filter=".web">Websites</li>
 					<li data-filter=".ongoing">Ongoing Projects</li>
@@ -1110,7 +1126,7 @@
 				<p class="col-lg-8 col-sm-12 footer-text">
 
 					Copyright &copy;
-					<script>document.write(new Date().getFullYear());</script> All rights reserved 
+					<script>document.write(new Date().getFullYear());</script> All rights reserved
 
 			</div>
 		</div>
@@ -1134,6 +1150,7 @@
 	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
 	<script src="vendors/isotope/isotope-min.js"></script>
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<!--gmaps Js-->
@@ -1142,6 +1159,30 @@
 	<script src="js/theme.js"></script>
 	<!-- Smooth Scrolling Added -->
 	<script type="text/javascript">
+		//FOR THE SLICK SLIDE
+		$(document).ready(function () {
+			$('.skill-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+
 		// handle links with @href started with '#' only
 		$(document).on('click', 'a[href^="#"]', function (e) {
 			// target element id
