@@ -5,7 +5,6 @@
     $from = $_POST['email'];
     $name = $_POST['name'];
     $csubject = $_POST['subject'];
-    // $number = $_POST['number'];
     $cmessage = $_POST['message'];
 
 	$headers = "From: MinD Webs <" . $sender . ">" . "\r\n";

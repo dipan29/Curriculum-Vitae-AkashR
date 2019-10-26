@@ -12,7 +12,7 @@ if(empty($_POST['name'])  ||
 }
 
 $name = $_POST['name']; 
-$phone = $_POST['phone'];
+//$phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $email_address = $_POST['email']; 
 $message = $_POST['message']; 
@@ -42,7 +42,7 @@ if( empty($errors))
 	
 	setcookie("msg_confirm", $value, time()+30, '/');
 	
-	header("Location: http://www.dipanroy.com");
+	header("Location: http://www.akashroy.com");
 	
 } 
 ?>
