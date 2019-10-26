@@ -16,6 +16,8 @@
 	<!-- <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css"> -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- W3.Slider -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css">
@@ -279,6 +281,27 @@
 						<p>
 							A gallery of what I have done so far.
 						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner">
+				<div class="col-lg-12">
+					<div class="w3-content w3-display-container">
+						<div class="w3-display-container mySlides">
+							<img src="img/achievements/1.jpg" style="width:100%">
+							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-green">
+								Image 1
+							</div>
+						</div>
+						<div class="w3-display-container mySlides">
+							<img src="img/achievements/2.jpg" style="width:100%">
+							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-green">
+								Image 2
+							</div>
+						</div>
+
+						<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 					</div>
 				</div>
 			</div>
@@ -1203,6 +1226,27 @@
 				scrollTop: pos
 			}, 1000);
 		});
+
+		// For the W3.Slider
+
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = x.length }
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
+
 	</script>
 
 </body>
