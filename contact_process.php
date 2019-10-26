@@ -6,7 +6,7 @@
     $from = $_POST['email'];
     $name = $_POST['name'];
     $csubject = $_POST['subject'];
-    $cmessage = $_POST['message'];
+    $cmessage = htmlentities($_POST['message']);
 
 	$headers = "From: MinD Webs <" . $sender . ">" . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
@@ -30,7 +30,7 @@
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	// $body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'><strong>Message:</strong> {$cmessage} </td></tr>";
+	$body .= "<tr><td colspan='2' style='border:none;'><strong>Message:</strong> ". nl2br($cmessage) ". </td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
