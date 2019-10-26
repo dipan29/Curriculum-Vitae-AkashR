@@ -1,7 +1,8 @@
 <?php
 	$sender = "notification@mindwebs.org";
 
-    $to = "meakashroy.ar@gmail.com";
+	$to = "meakashroy.ar@gmail.com";
+	
     $from = $_POST['email'];
     $name = $_POST['name'];
     $csubject = $_POST['subject'];
@@ -29,13 +30,13 @@
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	// $body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
+	$body .= "<tr><td colspan='2' style='border:none;'><strong>Message:</strong> {$cmessage} </td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-	$send = mail($to, $subject, $body, $headers);
+	//$send = mail($to, $subject, $body, $headers);
 	
-	if($send) {
+	if(mail($to, $subject, $body, $headers)) {
 		?>
 		<script>
 		alert("Message Sent Successfully!");

@@ -24,8 +24,6 @@ IMAGE 1 | Done
 IMAGE 2 = Mobile Image
 
 
-Add Mail Exception Hosting
-Remove all .html
 
 
 
@@ -41,3 +39,5 @@ Mobile/No-mobile CSS
 SOCIAL MEDIA LINKS
 Add Whatsapp direct link
 ADD META INFOS
+Add Mail Exception Hosting
+Remove all .html
