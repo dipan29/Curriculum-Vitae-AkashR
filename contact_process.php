@@ -8,7 +8,7 @@
     // $number = $_POST['number'];
     $cmessage = $_POST['message'];
 
-	$headers = "From: " . $sender . "\r\n";
+	$headers = "From: MinD Webs <" . $sender . ">" . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
