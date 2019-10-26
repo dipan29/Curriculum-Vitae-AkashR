@@ -2,11 +2,11 @@
 	$sender = "notification@mindwebs.org";
 
     $to = "meakashroy.ar@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $csubject = $_REQUEST['subject'];
-    // $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $csubject = $_POST['subject'];
+    // $number = $_POST['number'];
+    $cmessage = $_POST['message'];
 
 	$headers = "From: " . $sender . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
@@ -39,6 +39,7 @@
 	if($send) {
 		?>
 		<script>
+		alert("Message Sent Successfully!");
 			window.history.go(-1);
 		</script>
 		<?php
