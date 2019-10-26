@@ -1,14 +1,14 @@
 <?php
 	$sender = "notification@mindwebs.org";
 
-    $to = "meakashroy.ar@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $csubject = $_REQUEST['subject'];
-    // $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+	$to = "meakashroy.ar@gmail.com";
+	
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $csubject = $_POST['subject'];
+    $cmessage = htmlentities($_POST['message']);
 
-	$headers = "From: " . $sender . "\r\n";
+	$headers = "From: MinD Webs <" . $sender . ">" . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
@@ -30,15 +30,16 @@
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	// $body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
+	$body .= "<tr><td colspan='2' style='border:none;'><strong>Message:</strong> ". nl2br($cmessage) ". </td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-	$send = mail($to, $subject, $body, $headers);
+	//$send = mail($to, $subject, $body, $headers);
 	
-	if($send) {
+	if(mail($to, $subject, $body, $headers)) {
 		?>
 		<script>
+		alert("Message Sent Successfully!");
 			window.history.go(-1);
 		</script>
 		<?php

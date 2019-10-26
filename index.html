@@ -16,22 +16,53 @@
 	<!-- <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css"> -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- W3.Slider -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="css/mobile.css">
 
+	<!-- META Directives -->
+	<meta name="description" content="Electronics Engineer, Passionate Teacher & a Web Stack Developer">
+	<meta name="author" content="Akash Roy">
+
+	<!--Facebook Open Graph and Twitter Cards -->
+	<meta property="og:title" content="Akash Roy - Electronics Engineer, Passionate Teacher & a Web Stack Developer" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.akashroy.com" />
+	<meta property="og:image" content="http://akashroy.com/img/logo.png" />
+	<meta property="og:site_name" content="Akash Roy" />
+	<meta property="og:description" content="Electronics Engineer, Passionate Teacher & a Web Stack Developer" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Akash Roy" />
+	<meta name="twitter:description" content="Electronics Engineer, Passionate Teacher & a Web Stack Developer" />
+	<meta name="twitter:image" content="http://akashroy.com/img/logo.png" />
+
+	<!-- Colour Settings -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#8e44ad">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#8e44ad">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#8e44ad">
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=#"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101798343-12"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 		gtag('js', new Date());
 
-		gtag('config', '#');
+		gtag('config', 'UA-101798343-12');
 	</script>
 
-	<meta name="google-site-verification" content="#" />
+
+	<!-- <meta name="google-site-verification" content="O0BsQXuiRv9LWsLW7Hu8d8R5DPGkL4tUtkX6g-xuEQk" /> -->
 
 </head>
 
@@ -56,10 +87,10 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
 							<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
 							<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
 							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-
 							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 						</ul>
 					</div>
@@ -97,7 +128,7 @@
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap" id="about">
+	<section class="about_area" id="about" style="margin-bottom: 50px;">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-5">
@@ -118,7 +149,8 @@
 							also been my priorities. Currently serving as Front-End Developer at TCS, Kolkata.
 							<br />I have led the IEEE Student Chapter of my college and have conducted various Technical
 							activities under my leadership.
-							<br />Was a professional teacher for Unacade my and also taught for social service at the
+							<br />Was a professional teacher for Unacademy teaching Electronics. Also taught to
+							underpivileged kids for the
 							Rotaract Club of my Institute.
 						</p>
 						<p>Being a good human is my first while learning from yesterday isn't among the last.
@@ -132,7 +164,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
+	<section class="brand_area">
 		<div class="container">
 			<div class="row justify-content-center">
 				<!-- Slider for Desktop -->
@@ -238,6 +270,47 @@
 		</div>
 	</section>
 	<!--================ End Brand Area =================-->
+
+	<!--============== Start Achievements ===============-->
+	<section class="features_area" id="achievements">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>My Achievements </h2>
+						<p>
+							A gallery of what I have done so far.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner">
+				<div class="col-lg-12">
+					<div class="w3-content w3-display-container">
+						<div class="w3-display-container mySlides">
+							<img src="img/achievements/1.jpg" style="width:100%">
+							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+								style="opacity: 0.8;">
+								<h3 style="color: white;">Title</h3>
+								<p style="color: white;">Brief about the same over here</p>
+							</div>
+						</div>
+						<div class="w3-display-container mySlides">
+							<img src="img/achievements/2.jpg" style="width:100%">
+							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.8;">
+								<h3 style="color: white;">Title</h3>
+								<p style="color: white;">Brief about the same over here</p>
+							</div>
+						</div>
+
+						<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Achievements ====================-->
 
 	<!--================ Start Features Area =================-->
 	<section class="features_area" id="skills">
@@ -871,7 +944,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title text-left">
-						<h2>Certifications/Awards</h2>
+						<h2>Certifications</h2>
 					</div>
 				</div>
 			</div>
@@ -957,7 +1030,7 @@
 									<h5 style="color: gray;">Engg. Undergrad, HIT Kolkata</h5>
 									<p>A very friendly guy, inspiring, humble and caring. Never stopping to help. Loves
 										to grow and has mentored me that made me like his way, his approach and finally
-										following him. </p>
+										follow him. </p>
 								</div>
 							</div>
 						</div>
@@ -978,7 +1051,7 @@
 					<div class="subscription_box text-center">
 						<h2 class="text-uppercase text-white">Say a HELLO</h2>
 						<p class="text-white">
-							Connect with me. Drop in your suggestions, queries or collabs.
+							Connect with me. Drop in your suggestions, queries or research work partenership.
 						</p>
 					</div>
 				</div>
@@ -1009,7 +1082,7 @@
 					</div>
 				</div>
 				<div class="col-lg-9">
-					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm2"
 						novalidate="novalidate">
 						<div class="col-md-6">
 							<div class="form-group">
@@ -1027,12 +1100,12 @@
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<textarea class="form-control" name="message" id="message" rows="1"
+								<textarea class="form-control" name="message" id="message" rows="5"
 									placeholder="Enter Message"></textarea>
 							</div>
 						</div>
 						<div class="col-md-12 text-right">
-							<button type="submit" value="submit" class="primary_btn">
+							<button type="submit" value="submit" name="contactForm" class="primary_btn">
 								<span>Send Message</span>
 							</button>
 						</div>
@@ -1043,7 +1116,7 @@
 	</section>
 	<!--================ End Newsletter Area =================-->
 	<!-- Direct WhatsApp-->
-	<a href="https://api.whatsapp.com/send?phone=918582960476&text=Hello%20Akash%20&source=&data=" class="float"
+	<a href="https://api.whatsapp.com/send?phone=917003926402&text=Hello%20Akash%20&source=&data=" class="float"
 		target="_blank">
 		<i class="fa fa-whatsapp my-float"></i>
 	</a>
@@ -1075,7 +1148,9 @@
 				<p class="col-lg-8 col-sm-12 footer-text">
 
 					Copyright &copy;
-					<script>document.write(new Date().getFullYear());</script> All rights reserved
+					<script>
+						document.write(new Date().getFullYear());
+					</script> All rights reserved
 
 			</div>
 		</div>
@@ -1150,8 +1225,31 @@
 			var pos = $id.offset().top;
 
 			// animated top scrolling
-			$('body, html').animate({ scrollTop: pos }, 1000);
-		});	
+			$('body, html').animate({
+				scrollTop: pos
+			}, 1000);
+		});
+
+		// For the W3.Slider
+
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = x.length }
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
+
 	</script>
 
 </body>
